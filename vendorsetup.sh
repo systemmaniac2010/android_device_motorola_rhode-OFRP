@@ -38,7 +38,7 @@ fi
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export LC_ALL="C.UTF-8"
  	export ALLOW_MISSING_DEPENDENCIES=true
-	export FOX_MAINTAINER_PATCH_VERSION="01"
+	export FOX_MAINTAINER_PATCH_VERSION=01
 	export OF_MAINTAINER="Shreevatsavan D"
 	export FOX_VANILLA_BUILD=1
 	export FOX_AB_DEVICE=1
@@ -53,7 +53,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_SCREEN_H=20:9
 	export FOX_USE_NANO_EDITOR=1
 	export OF_ENABLE_ALL_PARTITION_TOOLS=1
-  export OF_DEFAULT_KEYMASTER_VERSION=4.1
+	export OF_DEFAULT_KEYMASTER_VERSION=4.1
 	export FOX_VANILLA_BUILD=1
 
 	# add the MiSans fonts for propery display of Chinese characters
