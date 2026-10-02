@@ -38,7 +38,7 @@ fi
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export LC_ALL="C.UTF-8"
  	export ALLOW_MISSING_DEPENDENCIES=true
-	export FOX_MAINTAINER_PATCH_VERSION=01
+	export FOX_MAINTAINER_PATCH_VERSION=1
 	export OF_MAINTAINER="Shreevatsavan D"
 	export FOX_VANILLA_BUILD=1
 	export FOX_AB_DEVICE=1
